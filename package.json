@@ -1,0 +1,10 @@
+{
+  "name": "dlugie-ramie-ukrainy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "validate": "node scripts/validate-artifact.mjs"
+  },
+  "displayName": "D\u0142ugie rami\u0119 Ukrainy"
+}

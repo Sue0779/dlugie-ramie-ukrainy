@@ -1,0 +1,32 @@
+{
+  "updated": "24.08.2026",
+  "objects": [{
+    "id": "ozon-logistics-aug-2026",
+    "name": "Ozon — centra logistyczne",
+    "region": "Samara, Orenburg, Dagestan i Kraj Krasnodarski",
+    "category": "economic",
+    "type": "sieć magazynów i centrów dystrybucyjnych",
+    "metric": "4 potwierdzone uszkodzenia · 6 zaatakowanych obiektów",
+    "context": "Seria uderzeń trwała od 22 do 24 sierpnia. Ozon potwierdził sześć zaatakowanych obiektów. Uszkodzenia lub pożary potwierdzono w Czapajewsku, obwodzie orenburskim, Machaczkale i Enemie. Obiekty w Adygejsku i Niewinnomyssku ewakuowano, lecz według firmy nie zostały uszkodzone, dlatego nie są liczone jako trafienia.",
+    "events": [
+      {"date":"2026-08-24","label":"24 sierpnia 2026 · Machaczkała","status":"disabled","confidence":"confirmed","text":"Po ataku drona wybuchł pożar; centrum wstrzymało pracę. Ozon wstępnie informował o kilku rannych.","sources":["reuters_ozon_24"]},
+      {"date":"2026-08-24","label":"24 sierpnia 2026 · Enem","status":"damaged","confidence":"confirmed","text":"W centrum logistycznym wybuchł duży pożar. Firma potwierdziła trafienie i ewakuację pracowników.","sources":["reuters_ozon_24"]},
+      {"date":"2026-08-23","label":"23 sierpnia 2026 · obwód orenburski","status":"disabled","confidence":"confirmed","text":"Odłamki drona trafiły magazyn Ozon. Ewakuowano ponad 300 osób, a pracę centrum wstrzymano; nie zgłoszono rannych.","sources":["reuters_ozon_23"]},
+      {"date":"2026-08-22","label":"22 sierpnia 2026 · Czapajewsk","status":"disabled","confidence":"confirmed","text":"Pierwsze potwierdzone uderzenie w obiekt Ozon zatrzymało pracę centrum logistycznego w obwodzie samarskim.","sources":["reuters_ozon_24","reuters_ozon_23"]}
+    ],
+    "hits": 4,
+    "severity": 4,
+    "newest": "2026-08-24",
+    "archive": false
+  }],
+  "sources": {
+    "reuters_ozon_24": {
+      "label": "Reuters: sześć obiektów Ozon zaatakowanych od 22 sierpnia, 24.08.2026",
+      "url": "https://www.reuters.com/world/europe/russias-ozon-says-four-logistics-hubs-targeted-by-ukrainian-drones-2026-08-24/"
+    },
+    "reuters_ozon_23": {
+      "label": "Reuters: trafienie magazynu Ozon w obwodzie orenburskim, 23.08.2026",
+      "url": "https://www.reuters.com/world/russian-online-retailer-ozon-warehouse-orenburg-region-hit-drone-attack-governor-2026-08-23/"
+    }
+  }
+}

@@ -17,11 +17,11 @@ source = source.replace(
 );
 source = source.replace(
   "const DATA=[",
-  "const DATA=" + embed(update.objects) + ".concat(["
+  "const UPDATES=" + embed(update.objects) + ";\\nconst DATA=["
 );
 source = source.replace(
   "}];\\nconst SOURCES={",
-  "}]);\\nconst SOURCES=" + embed(update.sources) + ";Object.assign(SOURCES,{"
+  "}];\\nUPDATES.forEach(u=>{const current=DATA.find(o=>o.id===u.id);if(!current){DATA.push(u);return;}const previousEvents=current.events||[];Object.assign(current,u);const incoming=u.events||[];current.events=incoming.concat(previousEvents.filter(e=>!incoming.some(n=>n.date===e.date&&n.label===e.label)));});\\nconst SOURCES=" + embed(update.sources) + ";Object.assign(SOURCES,{"
 );
 source = source.replace(
   "};\\nconst CATS=",
